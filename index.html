@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>E-Groceries</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar" id="navbar">
+        <img src="img/3.png" alt="logo" class="logo" />
+        <ul class="nav-list">
+          <li id="home">Home</li>
+          <li id="our-products"><a href="#our-packages">Our Package</a></li>
+          <li id="call-action"><a href="#call-action">Call Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="top-desc">
+      <h1>Top Rated E-Groceries Shop in Indonesia</h1>
+      <p>Every Day With best Ingredients</p>
+    </div>
+    <div class="container">
+      <div class="slides" style="max-width: 500px">
+        <img class="my-slides" src="img/img1.jpg" alt="" />
+        <img class="my-slides" src="img/img4.jpg" alt="" />
+        <img class="my-slides" src="img/img2.jpg" alt="" />
+        <img class="my-slides" src="img/img3.jpg" alt="" />
+      </div>
+      <div class="testimony">
+        <p><em>"setiap hari beli sayur dan buah yang fresh disini"</em></p>
+        <div class="people">
+          <img src="img/5.png" alt="" width="20px" />
+          <h3>Juminten Saepullah</h3>
+          <p><em>Ibu Rumah Tangga, 20 Tahun</em></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="our-packages" id="our-packages">
+      <h2>Our Packages</h2>
+      <div class="first-row">
+        <div class="pack">
+          <h3>Customer Service Skills</h3>
+          <p>Customer service skills are the skills necessary to communicate with others, solve problems, demonstrate patience and understanding, ensure customer satisfaction, and resolve customer complaints.</p>
+        </div>
+        <div class="pack">
+          <h3>Interpersonal Skills</h3>
+          <p>People's interpersonal skills are their abilities and strategies for interacting with others. They can help you build personal and professional relationships, as well as communicate and work with others effectively.</p>
+        </div>
+        <div class="pack">
+          <h3>Organizational Skills</h3>
+          <p>
+            Organizational skills are the abilities that let you stay focused on different tasks, and use your time, energy, strength, mental capacity, physical space, etc. effectively and efficiently in order to achieve the desired
+            outcome.
+          </p>
+        </div>
+      </div>
+      <div class="second-row">
+        <div class="pack">
+          <h3>Problem Solving</h3>
+          <p>Problem-solving skills consist of a set of abilities that help you identify a problem, propose solutions, choose the best one, and implement it.</p>
+        </div>
+        <div class="pack">
+          <h3>Teamwork Skills</h3>
+          <p>Teamwork skills allow you to co-work well with others. Those abilities and qualities help you communicate, give and receive feedback, solve problems, and resolve conflicts.</p>
+        </div>
+        <div class="pack">
+          <h3>Responsibility</h3>
+          <p>Rarely is problem-solving a solitary task, especially in the business context. You need to prove you work effectively as part of the team to implement your solutions.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="call-action" id="call-action">
+      <div class="head-call">
+        <h3>Contact Us</h3>
+        <p>Sales akan menghubungi anda 1x24 jam setelah data kami terima</p>
+      </div>
+      <div class="input-form">
+        <label for="nama">Your Name</label>
+        <input type="text" name="nama" id="input-name" placeholder="Firs and Last Name" />
+        <p id="name-error" class="error-message"></p>
+        <label for="nama">Email Address</label>
+        <input type="email" name="email" id="input-email" placeholder="example@email.com" />
+        <p id="email-error" class="error-message"></p>
+        <div class="custom-select" style="width: 200px">
+          <label for="select">What are you interested in?</label>
+          <select name="select" id="select">
+            <option value="0">Select Option</option>
+            <option value="1">Vegetable</option>
+            <option value="2">Fresh Fruits</option>
+            <option value="3">Snack</option>
+          </select>
+        </div>
+        <button id="tombol-kirim">SEND</button>
+      </div>
+    </div>
+
+    <footer>
+      <p id="bottom">Made With Love By Fajar</p>
+      <p>
+        <a href="#home"><strong>Back To Home</strong></a>
+      </p>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
